@@ -10,26 +10,25 @@
     <title>Fulano de tal Advogado</title>
     <body>
         
-            <header class="cabecalho">
+        <header class="cabecalho">
        
-                <img class="logo" src="imagens/Iconleak-Or-Justice-balance.256.png" alt="">
+            <img class="logo" src="imagens/Iconleak-Or-Justice-balance.256.png" alt="">
                 <nav class= "cabecalho_menu">
                     <a class="cabecalho_menu_item">Agende sua consulta</a>
                     <a class="cabecalho_menu_item">Sites Importantes</a>
                     <a class="cabecalho_menu_item">Serviços Oferecidos</a>
                 </nav>
             
-            </header>
+        </header>
         <section class="background-section">
-            <h1 class="h1">Bem vindo a nossa página, <br>
-                aqui você encotrará respostas <br>
-                para seus problemas </h1>
+            <p>Bem vindo a nossa página, aqui você encotrará respostas <br>
+                para seus problemas </p>
 
         </section>
 
         <hr>
         
-        <section id="introduction">
+        <section class="introduction">
             <!-- Seção de introdução -->
             <h1>Introdução</h1>
             <p>Uma breve descrição do escritório ou do advogado.</p>
@@ -41,7 +40,7 @@
             <p>Destaque os pontos únicos do escritório ou advogado.</p>
         </section>
         
-        <section id="services">
+        <section class="services">
             <!-- Seção de serviços -->
             <h2>Serviços</h2>
             <ul>
@@ -70,13 +69,38 @@
         
         <section id="contact">
             <!-- Seção de contato -->
+            
             <h2>Contato</h2>
             <p>Informações de contato e formulário de contato.</p>
+            
+            <form action="/enviar" method="POST">
+                <fieldset>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+                    <br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Digite seu melhor e-mail">
+                    <br>
+                    <br>
+                    <label for="telefone">Contato:</label>
+                    <input type="tel" id="tel" name="telefone" required placeholder="Digite seu melhor número">
+                    <br><br>
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Se tem alguma dúvida, digite aqui ou nos chame diretamente no WhatsApp."></textarea>
+                    <br>
+                    <br>
+                    <input type="submit" value="Enviar">
+                </fieldset>
+
+            </form>
+           
         </section>
-        
+      
         <footer>
             <!-- Rodapé -->
+            
             <p>Desenvolvido por Suelen Magalhães</p>
+        
         </footer>
     </body>
     </html>
