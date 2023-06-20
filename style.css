@@ -2,8 +2,39 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Roboto+Mono:wght@700&family=Sarala:wght@700&display=swap'); */
 
 *{
-  margin: 0;
+  
   text-decoration: none;
+}
+
+p{
+    color: rgb(132, 61, 7);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 30x;
+}
+h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+
+}
+
+
+.slogan{
+    color: white;
+    font-size: 30px;
+    justify-content: right;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color:rgb(132, 61, 7);
+    margin: 0;
+    padding: 26px;
+}
+header{
+    display: flex;
+
 }
 .logo{
     width: 100px;
@@ -21,28 +52,33 @@
     width: 100%;
     height: 700px;
 }
-p{
-    color: white;
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
 
+body{
+    margin: 0;
+    
 }
+
+
 .cabecalho{
     display: flex;
     background-color:white;
     flex-direction: row;
-    align-items: center;
+    align-items: center; 
     justify-content: space-around;
     font-family: 'Sarala', sans-serif;
-}
-section, .introduction{
-    background-color: black;
-
+   
 }
 
-h1, h2{
+.cabecalho_menu_item{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+    cursor: pointer;
+    background-color:rgb(132, 61, 7);
     color: white;
 }
+
+
 ul{
     list-style: none;
 }
@@ -50,3 +86,9 @@ ul{
 justify-content: space-between;
 
 }
+
+#id{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ 
