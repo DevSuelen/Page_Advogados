@@ -1,16 +1,59 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/Iconleak-Or-Justice-balance.256.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>Fulano de tal Advogado</title>
-    <body>
+    <style>
+        .navbar-nav .nav-link{
+            font-size: 18px;
+            color:white;
+            border-radius: 10px;
+            background-color:rgb(132, 61, 7);
+            margin-right: 26px; 
+            padding: 5px;
+        }
         
-        <header class="container-fluid">
+    </style>
+</head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+                <div class= "container">
+                    <a class="navbar-brand" href="#">
+                        <img src="imagens/Iconleak-Or-Justice-balance.256.png" class="logo-img" alt="balança, simbolo da justiça">
+                    </a>
+                    <button class="navbar-toggler" type="button"
+                    data-bs-toggler="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <!-- <i class="bi bi-list"></i> -->
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0" >
+                            <li class="nav-item" href="#" >
+                                <a class="nav-link" href="#" >Inicio</a>
+                            </li>
+                            <li class="nav-item" href="#">
+                                <a class="nav-link" href="#" >Serviços</a>
+                            </li>
+                            <li class="nav-item" href="#">
+                                <a class="nav-link" href="#" >Blog</a>
+                            </li>
+                            <li class="nav-item" href="#">
+                                <a class="nav-link" href="#" >Contato</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- <header class="container-fluid">
        
             <img class="logo" src="imagens/Iconleak-Or-Justice-balance.256.png" alt="">
                 <nav class= "cabecalho_menu">
@@ -18,17 +61,19 @@
                     <a class="cabecalho_menu_item">Sites Importantes</a>
                     <a class="cabecalho_menu_item">Serviços Oferecidos</a>
                 </nav>            
-        </header>
-        <div class="slogan">
-            <p class="slogan">Bem vindes a nossa página, será um prazer fazer parte de sua vitória!</p>
-        </div>
+        </header> -->
+      <hr>
 
         <div class= "container-fluid"
 
         style="background-image: url('imagens/justica_cega.jpg'); background-repeat: no-repeat;
         background-size: cover; width: 100%; height: 700px;">
         </div>
-        
+<hr>
+        <div class="slogan">
+            <p class="slogan">Bem vindes a nossa página, será um prazer fazer parte de sua vitória!</p>
+        </div>
+        <hr>
     
         
         <main>
@@ -126,7 +171,7 @@
             <h6>Desenvolvido por <a href="https://www.linkedin.com/in/devsuelenbarros/">@Suelen Magalhães</a></h6>
         
         </footer>
-        <script src="script.js"></script>
+        
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     </body>
     </html>

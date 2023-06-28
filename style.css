@@ -20,6 +20,9 @@ h1{
     
 
 }
+.logo-img{
+    width: 80px;
+}
 
 
 .slogan{
@@ -29,30 +32,26 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background-color:rgb(132, 61, 7);
-    margin: 0;
-    padding: 26px;
+    margin-top: 0;
+    padding: 16px;
+    text-align: center;
 }
-header{
-    display: flex;
 
-}
 .logo{
     width: 100px;
     padding: 20px;
     margin: 3px;
     border-radius: 30%;
-    height: 72px;
-}
-
-
+    height: 80px;
+} 
 
 body{
-    margin: 0;
+    margin-top: 32px;
     
 }
 
 
-/* .cabecalho{ */
+ /* .cabecalho{ */ 
     /* display: flex;
     background-color:white;
     flex-direction: row;
@@ -62,17 +61,19 @@ body{
     */
 /* } */
 
-.cabecalho_menu_item{
+/* .cabecalho_menu_item{
     border-radius: 10px;
     padding: 10px;
     margin: 15px;
     cursor: pointer;
     background-color:rgb(132, 61, 7);
     color: white;
-}
+    
+k
+} */
 
 
-ul{
+/* ul{
     list-style: none;
 }
 .services, li {
@@ -83,7 +84,7 @@ justify-content: space-between;
 #id{
     margin-top: 0;
     margin-bottom: 0;
-}
+} */
 footer{
     background-color: rgb(132, 61, 7);
     padding: 18px;
