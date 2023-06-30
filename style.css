@@ -95,8 +95,9 @@ justify-content: space-between;
     margin-bottom: 0;
 } */
 footer{
-    background-color: rgb(132, 61, 7);
+    /* background-color: rgb(132, 61, 7); */
     padding: 18px;
+    background-color:rgba(132, 61, 7, 0.411);
     
 }
 h6{
